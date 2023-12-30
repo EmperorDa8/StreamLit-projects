@@ -9,9 +9,9 @@ slt.set_page_config(page_title = 'Dan profile-website', page_icon=':waving_hand:
 
 with slt.container():
     slt.subheader('Hello i am Dan Usman :video_game:')
-    slt.title('i am an aspiring junior system adminstrator / junior cloud engineer currently located in Nigeria')
-    slt. write('i am a passionate indivdual looking to leverage my skillset to pursue a rewarding career in cloud computing')
-    slt.write('[learn more through my linkedn >](https://www.linkedin.com/in/dan-usman-b87282134/)')
+    slt.title('i am an aspiring junior system administrator / junior cloud engineer currently located in Nigeria')
+    slt. write('i am a passionate individual looking to leverage my skillset to pursue a rewarding career in cloud computing')
+    slt.write('[learn more through my Linkedin >](https://www.linkedin.com/in/dan-usman-b87282134/)')
 #---objectives
 def lottie_urlget(url):
     rr= requests.get(url)
@@ -26,10 +26,10 @@ def css_file(file_name):
 css_file('style/style.css')
 
 lotte_files=lottie_urlget('https://lottie.host/ba90e09a-cb67-427e-86b7-e439e185cddc/rrcxidLaYE.json')
-lot_image_IT_auto=Image.open('C:/Users/HP//PycharmProjects/StreamLit-projects/images/01a.png')
-GCp_Img=Image.open('C:/Users/HP/PycharmProjects/StreamLit-projects/images/G ITwp.jpg')
-GCP_gen=Image.open('C:/Users/HP/PycharmProjects/StreamLit-projects/images/maxres.jpg')
-project_gen=Image.open('C:/Users/HP/PycharmProjects/StreamLit-projects/images/generative_AI.png')
+lot_image_IT_auto=Image.open('images/01a.png')
+GCp_Img=Image.open('images/G ITwp.jpg')
+GCP_gen=Image.open('images/maxres.jpg')
+project_gen=Image.open('images/generative_AI.png')
 
 with slt.container():
     slt.write('----')
@@ -37,14 +37,14 @@ with slt.container():
     with left_column:
         slt.header('my objectives ')
         slt.write('###')
-        slt.write('''Seeking a challenging and rewarding internship or entry level opportunity to apply my Python skills and contribute to a dynamic cloud team. Open to learning new technologies and eager to make a positive impact.
+        slt.write('''Seeking a challenging and rewarding internship or entry-level opportunity to apply my Python skills and contribute to a dynamic cloud team. Open to learning new technologies and eager to make a positive impact.
         
         -Leverage Python scripting to automate routine system administration tasks such as user provisioning, configuration management, and data backup/recovery.
-        -Applypng automation solutions to scale infrastructure and operations in cloud environments.
+        -Applying automation solutions to scale infrastructure and operations in cloud environments.
         
         -Utilize Python for cloud infrastructure provisioning, configuration, and maintenance.
         
-        -Troubleshoot and diagnose issue.
+        -Troubleshoot and diagnose issues.
         
         -Strengthen security posture:.
         
@@ -59,7 +59,7 @@ with slt.container():
         slt.header('my professional career google certification ')
         slt.write('###')
         slt.write("""
-        my google IT automation with python taught me hands-on experience in the following :
+        My Google IT automation with Python taught me hands-on experience in the following :
 1. fundamentals of Python syntax, variables, data types, control flow statements, and functions.
 Gain practical experience by writing simple scripts to automate basic tasks like file manipulation, data analysis, and web scraping.
 
@@ -98,10 +98,10 @@ with slt.container():
 -learnt about the core functionality of Generative AI Studio, including its user interface, pre-trained models, and tools for experimentation.
 other exploration include :
 
--experimenting google latest AI model gemini for simple task like image extraction, image Q/A, image classificaton , and others with its pre-trained models for
+-experimenting Google latest AI model gemini for simple task like image extraction, image Q/A, image classificaton , and others with its pre-trained models for
 prompt output
          
--also i have been able to leverage the platform to create AI chatbot , enterprize search app which can be deployed with API integration or widget integration to existing application      
+-also I have been able to leverage the platform to create AI chatbot , enterprize search app which can be deployed with API integration or widget integration to existing application      
         ''')
         slt.write('[learn more >](https://coursera.org/share/00162df6e1184066de5b34bf4f2d0b54)')
     with img_column:
