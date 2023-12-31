@@ -139,7 +139,7 @@ with slt.container():
     slt.write('##')
 
     contact_form= '''
-            <form action="https://formsubmit.co/b36d0d53a1252fa5d04388834f104d0d" method="POST">
+            <form action="https://formsubmit.co/uabdul88@gmail.com" method="POST">
      <input type="text" name="name"  placeholder ='Your name' required>
      <input type="email" name="email" placeholder ='Your email' required>
      <textarea name='message' placeholder='Your message here'  required></textarea>
