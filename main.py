@@ -26,10 +26,10 @@ def css_file(file_name):
 css_file('style/style.css')
 
 lotte_files=lottie_urlget('https://lottie.host/ba90e09a-cb67-427e-86b7-e439e185cddc/rrcxidLaYE.json')
-lot_image_IT_auto=Image.open('/images/01a.png')
-GCp_Img=Image.open('/images/G ITwp.jpg')
+lot_image_IT_auto=Image.open('images/01a.png')
+GCp_Img=Image.open('images/G ITwp.jpg')
 GCP_gen=Image.open('images/maxres.jpg')
-project_gen=Image.open('/images/generative_AI.png')
+project_gen=Image.open('images/generative_AI.png')
 
 with slt.container():
     slt.write('----')
