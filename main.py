@@ -153,7 +153,7 @@ with slt.container():
 
          '''
 
-        html( widget_search)
+        html( widget_search, height=500)
         
         
         
