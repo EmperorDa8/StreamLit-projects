@@ -137,7 +137,7 @@ with slt.container():
         slt.subheader('widget_search')
         slt.write('##')
 
-        widg<!-- Widget JavaScript bundle -->
+        <!-- Widget JavaScript bundle -->
 <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
 
 <!-- Search widget element is not visible by default -->
