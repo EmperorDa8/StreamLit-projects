@@ -133,8 +133,8 @@ with slt.container():
         slt.subheader('My Generative AI projects attempts')
         slt.write('this projects involves my attempts in using chatgpt Open API and also AI image tools like lenardo AI, and finally generative AI studio with prompt generating including latest multimodal model GEMINI')
         slt.write('[learn more >](https://github.com/EmperorDa8/generativeAI)')
-        slt.write('Experience the power Ai semantic search through enterprise search app i created by Google vertex AI which i loaded with BBC-News public dataset on bigquery instance set up in background ')
-        slt.subheader('My Chatbot')
+        slt.write('Experience the power Ai semantic search through AI chatbot i created by Google vertex AI which i loaded with my dataset on cloud storage instance set up in background also develop AI enterprise search on the same platform ')
+        slt.subheader('My AI Chatbot')
         
 
 
@@ -157,7 +157,7 @@ chat='''<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/
                 right: 16px;
             }
             </style> ''' 
-html(chat,height=500)
+html(chat,height=450)
 
         
 
