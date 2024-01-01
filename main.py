@@ -147,7 +147,7 @@ with slt.container():
 
 <button id="searchButton">Search</button>
 
-<input placeholder="Search here" id="searchWidgetTrigger" style="display: none;" />
+<input placeholder="Search here" id="searchWidgetTrigger" style="display: True;" />
 
          '''
 
