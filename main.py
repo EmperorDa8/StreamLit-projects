@@ -104,7 +104,7 @@ bottom: 16px;
 right: 16px;
 }
 </style> '''
-)
+ , height=100)
     
 
 with slt.container():
@@ -174,7 +174,7 @@ with slt.container():
 
          '''
 
-        html( widget_search, height=500)
+        html( widget_search, height=250)
         
         
         
