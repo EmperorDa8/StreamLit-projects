@@ -151,8 +151,7 @@ with slt.container():
 
          '''
 
-        my_html = f"<script>{widget_search}</script>"
-        html(my_html)
+        html( widget_search)
         
         
         
