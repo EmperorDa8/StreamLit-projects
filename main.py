@@ -140,16 +140,16 @@ with slt.container():
         widget_search= '''
 
                 <!-- Widget JavaScript bundle -->
-        <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
-        
-        <!-- Search widget element is not visible by default -->
-        <gen-search-widget
-          configId="89e9c1be-87fb-4524-b314-6be96f357a94"
-          triggerId="searchWidgetTrigger">
-        </gen-search-widget>
-        
-        <!-- Element that opens the widget on click. It does not have to be an input -->
-        <input placeholder="Search here" id="searchWidgetTrigger" />
+<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+
+<!-- Search widget element is not visible by default -->
+<gen-search-widget
+  configId="89e9c1be-87fb-4524-b314-6be96f357a94"
+  triggerId="searchWidgetTrigger">
+</gen-search-widget>
+
+<!-- Element that opens the widget on click. It does not have to be an input -->
+<input placeholder="Search here" id="searchWidgetTrigger" />
 
          '''
 
