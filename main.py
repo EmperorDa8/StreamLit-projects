@@ -133,6 +133,28 @@ with slt.container():
         slt.write('this projects involves my attempts in using chatgpt Open API and also AI image tools like lenardo AI, and finally generative AI studio with prompt generating including latest multimodal model GEMINI')
         slt.write('[learn more >](https://github.com/EmperorDa8/generativeAI)')
 
+        slt.write('Experience the power Ai semantic search through enterprise search app i created by Google vertex AI which i loaded with BBC-News public dataset on bigquery instance set up in background ')
+        slt.subheader('widget_search')
+        slt.write('##')
+
+        widget-search= '''  
+            <!-- Widget JavaScript bundle -->
+<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
+
+<!-- Search widget element is not visible by default -->
+<gen-search-widget
+  configId="89e9c1be-87fb-4524-b314-6be96f357a94"
+  triggerId="searchWidgetTrigger">
+</gen-search-widget>
+
+<!-- Element that opens the widget on click. It does not have to be an input -->
+<input placeholder="Search here" id="searchWidgetTrigger" />
+         '''
+
+        slt.markdown(widget-search)
+        
+        
+
 with slt.container():
     slt.write('-----')
     slt.subheader('Contact_form')
