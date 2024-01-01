@@ -150,7 +150,7 @@ with slt.container():
 <input placeholder="Search here" id="searchWidgetTrigger" />
          '''
 
-        slt.markdown(widget-search)
+        slt.markdown(widget_search)
         
         
 
