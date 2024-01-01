@@ -86,7 +86,7 @@ Write scripts to query databases, extract data, and perform CRUD operations.
         slt.image(GCp_Img)
 
 
-       chat=''' <link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+        html(<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
         <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
         <df-messenger
           project-id="taj-bank-opmanager-poc"
@@ -104,12 +104,8 @@ Write scripts to query databases, extract data, and perform CRUD operations.
             right: 16px;
           }
         </style>
-        '''
-    html(chat)
-
-
-
-
+        )
+    
 
 with slt.container():
     slt.write('----')
