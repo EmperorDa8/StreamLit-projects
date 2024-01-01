@@ -1,5 +1,6 @@
 from PIL import Image
 import requests
+from streamlit.components.v1 import html
 from streamlit_lottie import st_lottie
 import streamlit as slt
 
@@ -150,7 +151,9 @@ with slt.container():
 <input placeholder="Search here" id="searchWidgetTrigger" />
          '''
 
-        slt.markdown(widget_search)
+        my_html = f"<script>{widget_search}</script>"
+        html(my_html)
+        
         
         
 
