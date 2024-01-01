@@ -134,48 +134,30 @@ with slt.container():
         slt.write('this projects involves my attempts in using chatgpt Open API and also AI image tools like lenardo AI, and finally generative AI studio with prompt generating including latest multimodal model GEMINI')
         slt.write('[learn more >](https://github.com/EmperorDa8/generativeAI)')
         slt.write('Experience the power Ai semantic search through enterprise search app i created by Google vertex AI which i loaded with BBC-News public dataset on bigquery instance set up in background ')
-        slt.subheader('widget_search')
+        slt.subheader('My Chatbot')
         slt.write('##')
 
-        widget_search= '''
-
-                <!-- Widget JavaScript bundle -->
-<script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
-
-<!-- Search widget element is not visible by default -->
-<gen-search-widget
-  configId="89e9c1be-87fb-4524-b314-6be96f357a94"
-  triggerId="searchWidgetTrigger">
-</gen-search-widget>
-
-<!-- Element that opens the widget on click. It does not have to be an input -->
-<input placeholder="Search here" id="searchWidgetTrigger" />
-
-         '''
-
-        html( widget_search, height=80)
 
 
-
-html( ''''<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
-<script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
-<df-messenger
-project-id="taj-bank-opmanager-poc"
-agent-id="50aea01a-7bac-4465-9129-a90b26eda90e"
-language-code="en">
-<df-messenger-chat-bubble
-chat-title="zion">
-</df-messenger-chat-bubble>
-</df-messenger>
-<style>
-df-messenger {
-z-index: 999;
-position: fixed;
-bottom: 16px;
-right: 16px;
-}
-</style> '''
- )
+                html( ''''<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
+                <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
+                <df-messenger
+                project-id="taj-bank-opmanager-poc"
+                agent-id="50aea01a-7bac-4465-9129-a90b26eda90e"
+                language-code="en">
+                <df-messenger-chat-bubble
+                chat-title="About me">
+                </df-messenger-chat-bubble>
+                </df-messenger>
+                <style>
+                df-messenger {
+                z-index: 999;
+                position: fixed;
+                bottom: 16px;
+                right: 16px;
+                }
+                </style> '''
+                 )
 
         
 
