@@ -135,7 +135,7 @@ with slt.container():
         slt.write('[learn more >](https://github.com/EmperorDa8/generativeAI)')
         slt.write('Experience the power Ai semantic search through enterprise search app i created by Google vertex AI which i loaded with BBC-News public dataset on bigquery instance set up in background ')
         slt.subheader('My Chatbot')
-        slt.write('##')
+        
 
 
 
