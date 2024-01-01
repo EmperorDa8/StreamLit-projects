@@ -135,8 +135,6 @@ with slt.container():
         slt.write('[learn more >](https://github.com/EmperorDa8/generativeAI)')
         slt.write('Experience the power Ai semantic search through AI chatbot i created by Google vertex AI which i loaded with my dataset on cloud storage instance set up in background also develop AI enterprise search on the same platform ')
         slt.subheader('My AI Chatbot')
-        
-
 
 
 chat='''<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
