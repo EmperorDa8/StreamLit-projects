@@ -156,8 +156,7 @@ chat='''<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/
                 bottom: 16px;
                 right: 16px;
             }
-            </style> '''
-             )
+            </style> ''' 
 html(chat,height=500)
 
         
