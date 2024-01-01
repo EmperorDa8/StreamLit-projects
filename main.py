@@ -136,7 +136,7 @@ with slt.container():
         slt.subheader('widget_search')
         slt.write('##')
 
-        widget-search= '''  
+        widget_search= '''  
             <!-- Widget JavaScript bundle -->
 <script src="https://cloud.google.com/ai/gen-app-builder/client?hl=en_US"></script>
 
