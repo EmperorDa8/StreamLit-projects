@@ -11,7 +11,7 @@ slt.set_page_config(page_title = 'Dan profile-website', page_icon=':waving_hand:
 with slt.container():
     slt.subheader('Hello i am Dan Usman :video_game:')
     slt.title('Experienced Junior System Administrator with a Strong Foundation in Google IT Automation and Prompt Engineering')
-    slt. write('i am a passionate individual looking to leverage my skillset to pursue a rewarding career in cloud computing and Gen AI)
+    slt. write('i am a passionate individual looking to leverage my skillset to pursue a rewarding career in cloud computing and Gen AI')
     slt.write('[learn more through my Linkedin >](https://www.linkedin.com/in/dan-usman-b87282134/)')
 #---objectives
 def lottie_urlget(url):
