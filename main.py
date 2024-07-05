@@ -147,10 +147,10 @@ contact_form = '''
     </form>
     '''
 
-    left_column, right_column = slt.columns(2)
-    with left_column:
-        slt.markdown(contact_form, unsafe_allow_html=True)
-    with right_column:
-        slt.empty()
+left_column, right_column = slt.columns(2)
+with left_column:
+    slt.markdown(contact_form, unsafe_allow_html=True)
+with right_column:
+    slt.empty()
 
 
