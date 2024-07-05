@@ -1,6 +1,5 @@
 from PIL import Image
 import requests
-from streamlit.components.v1 import html
 from streamlit_lottie import st_lottie
 import streamlit as slt
 
@@ -121,7 +120,7 @@ with slt.container():
         slt.write('Experience the power of AI semantic search through an AI chatbot I created using Google Vertex AI, which I loaded with my dataset on a cloud storage instance set up in the background. Also, develop AI enterprise search on the same platform.')
         slt.subheader('My AI Chatbot')
 
-HTML( '''<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
+with slt.html( "<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
 <script>
     new CozeWebSDK.WebChatClient({
         config: {
@@ -131,8 +130,7 @@ HTML( '''<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-ap
             title: 'Coze',
         },
     });
-</script>
-''')
+</script> ")
 
 with slt.container():
     slt.write('-----')
