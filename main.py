@@ -134,7 +134,7 @@ chat = '''<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-a
 </script>
 '''
 
-html(chat, height=450)
+html(chat)
 
 with slt.container():
     slt.write('-----')
