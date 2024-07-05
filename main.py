@@ -140,7 +140,7 @@ with slt.container():
 
     
 
-  <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
+ chat= ''' <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
   <script>
       new CozeWebSDK.WebChatClient({
         config: {
@@ -151,9 +151,9 @@ with slt.container():
         },
       });
   </script>
+    '''
     
-    
-#html(chat,height=450)
+html(chat,height=450)
 
         
 
