@@ -138,25 +138,20 @@ with slt.container():
         slt.subheader('My AI Chatbot')
 
 
-chat='''<link rel="stylesheet" href="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/themes/df-messenger-default.css">
-            <script src="https://www.gstatic.com/dialogflow-console/fast/df-messenger/prod/v1/df-messenger.js"></script>
-            <df-messenger
-                project-id="taj-bank-opmanager-poc"
-                agent-id="50aea01a-7bac-4465-9129-a90b26eda90e"
-                language-code="en">
-            <df-messenger-chat-bubble
-            chat-title="About me">
-            </df-messenger-chat-bubble>
-            </df-messenger>
-            <style>
-            df-messenger {
-                z-index: 999;
-                position: fixed;
-                bottom: 16px;
-                right: 16px;
-            }
-            </style> ''' 
-html(chat,height=450)
+    
+      <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
+      <script>
+          new CozeWebSDK.WebChatClient({
+            config: {
+              bot_id: '7387920960499810309',
+            },
+            componentProps: {
+              title: 'Coze',
+            },
+          });
+      </script>
+    
+#html(chat,height=450)
 
         
 
