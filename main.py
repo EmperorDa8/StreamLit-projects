@@ -134,7 +134,6 @@ with slt.container():
         slt.write('this projects involves my attempts in using chatgpt Open API and also AI image tools like lenardo AI, and finally generative AI studio with prompt engineering including latest multimodal model GEMINI-ultra')
         slt.write('[learn more >](https://github.com/EmperorDa8/generativeAI)')
         slt.write('Experience the power Ai semantic search through AI chatbot i created by Google vertex AI which i loaded with my dataset on cloud storage instance set up in background also develop AI enterprise search on the same platform ')
-        slt.subheader('My AI Chatbot')
 
 
     
@@ -175,5 +174,5 @@ with slt.container():
     with left_column:
         slt.markdown(contact_form,unsafe_allow_html=True)
     with right_column:
-        slt.markdown(chat,unsafe_allow_html=True)
+        slt.markdown(chat, unsafe_allow_html=True)
 
