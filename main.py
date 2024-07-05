@@ -120,7 +120,7 @@ with slt.container():
         slt.write('Experience the power of AI semantic search through an AI chatbot I created using Google Vertex AI, which I loaded with my dataset on a cloud storage instance set up in the background. Also, develop AI enterprise search on the same platform.')
     
 
-slt.html(''' 
+slt.markdown('''
 <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
 <script>
     new CozeWebSDK.WebChatClient({
@@ -131,7 +131,8 @@ slt.html('''
             title: 'Coze',
         },
     });
-</script> ''')
+</script> 
+''', unsafe_allow_html=True)
 
 with slt.container():
     slt.write('-----')
