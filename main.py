@@ -120,7 +120,8 @@ with slt.container():
         slt.write('Experience the power of AI semantic search through an AI chatbot I created using Google Vertex AI, which I loaded with my dataset on a cloud storage instance set up in the background. Also, develop AI enterprise search on the same platform.')
     
 
-slt.html(''' <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
+slt.html(''' 
+<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
 <script>
     new CozeWebSDK.WebChatClient({
         config: {
@@ -137,7 +138,7 @@ with slt.container():
     slt.subheader('Contact Form')
     slt.write('##')
 
-    contact_form = '''
+contact_form = '''
     <form action="https://formsubmit.co/uabdul88@gmail.com" method="POST">
         <input type="text" name="name" placeholder='Your name' required>
         <input type="email" name="email" placeholder='Your email' required>
