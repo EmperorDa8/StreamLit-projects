@@ -118,9 +118,9 @@ with slt.container():
         slt.write('These projects involve my attempts in using ChatGPT Open API and also AI image tools like Leonardo AI, and finally Generative AI Studio with prompt engineering including the latest multimodal model GEMINI-ultra.')
         slt.write('[Learn more >](https://github.com/EmperorDa8/generativeAI)')
         slt.write('Experience the power of AI semantic search through an AI chatbot I created using Google Vertex AI, which I loaded with my dataset on a cloud storage instance set up in the background. Also, develop AI enterprise search on the same platform.')
-        slt.subheader('My AI Chatbot')
+    
 
-slt.html( "<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
+slt.html("<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
 <script>
     new CozeWebSDK.WebChatClient({
         config: {
@@ -130,7 +130,7 @@ slt.html( "<script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-
             title: 'Coze',
         },
     });
-</script> ")
+</script>")
 
 with slt.container():
     slt.write('-----')
