@@ -140,18 +140,18 @@ with slt.container():
 
     
 
- chat= ''' <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
-              <script>
-                  new CozeWebSDK.WebChatClient({
-                    config: {
-                      bot_id: '7387920960499810309',
-                    },
-                    componentProps: {
-                      title: 'Coze',
-                    },
-                  });
-              </script>
-                '''
+chat= ''' <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-app-sdk/0.1.0-beta.4/libs/oversea/index.js"></script>
+<script>
+  new CozeWebSDK.WebChatClient({
+    config: {
+      bot_id: '7387920960499810309',
+    },
+    componentProps: {
+      title: 'Coze',
+    },
+  });
+</script>
+'''
     
 html(chat,height=450)
 
