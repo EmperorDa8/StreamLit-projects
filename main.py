@@ -175,5 +175,5 @@ with slt.container():
     with left_column:
         slt.markdown(contact_form,unsafe_allow_html=True)
     with right_column:
-        slt.empty()
+        slt.markdown(chat,unsafe_allow_html=True)
 
