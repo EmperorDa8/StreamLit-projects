@@ -105,7 +105,6 @@ prompt output
 -also I have been able to leverage the platform to create an AI chatbot, and enterprise search app that can be deployed with API integration or widget integration to existing application      
         ''')
         slt.write('[learn more >](https://coursera.org/share/00162df6e1184066de5b34bf4f2d0b54)')
-        slt.write('[access the enterpise AI search app created and deployed by me using cloud run >](https://apptest-cdxrwirz7a-nw.a.run.app/)')
     with img_column:
         slt.image(GCP_gen)
 
@@ -153,7 +152,7 @@ chat= ''' <script src="https://sf-cdn.coze.com/obj/unpkg-va/flow-platform/chat-a
 </script>
 '''
     
-html(chat,height=450)
+html(chat,height=650)
 
         
 
